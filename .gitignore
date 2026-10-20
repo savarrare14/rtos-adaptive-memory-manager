@@ -1,0 +1,30 @@
+# Build output
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Arduino IDE and editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local/private configuration and secrets
+.env
+.env.*
+secrets.*
+private_config.*
+
+# Large generated data; keep selected, reviewed samples in results/
+*.tmp
+*.log
